@@ -4,9 +4,12 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 const Timeline = () => {
   return (
     <div className="bg-light rounded p-4 mt-3 timeline">
-      <div className="fs-17 fw-bold text-start">TimeLine</div>
-      <div className="fw-bolder font-size : larger">...</div>
-      <div className='mt-3'>
+      <div className='d-flex justify-content-between'>
+        <div className="fs-17 fw-bold text-start">TimeLine</div>
+        <div className="fw-bolder font-size : larger">...</div>
+      </div>
+
+      <div className="mt-3">
         {[
           { title: "Create WireFrame", time: "32:54" },
           { title: "Logo Design", time: "30:54" },
